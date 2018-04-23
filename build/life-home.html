@@ -1,0 +1,32 @@
+<ion-card>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J5mX7RJGj2M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  <ion-card-content>
+    <ion-card-title>
+      Welcome to our Church!
+      </ion-card-title>
+<p>Check out this video to learn a little more about who we are, what we believe, what we value, and how we can serve you. We are one church with many locations and we have found that we are truly better together. 
+</p>
+  </ion-card-content>
+
+<ion-list>
+    <button ion-item (click)="pushPage( pages.tab_menu.items[1] )">
+      <ion-icon name="logo-youtube" item-left></ion-icon>
+      Watch Sermons
+    </button>
+    <button ion-item (click)="pushPage( pages.tab_menu.items[4] )">
+      <ion-icon name="share" item-left></ion-icon>
+      Connect
+    </button>
+    <button ion-item (click)="pushPage( {url:'https://saddleback.com',target:'_blank' } )">
+      <ion-icon name="globe" item-left></ion-icon>
+      Our Website
+    </button>
+</ion-list>
+</ion-card>
+
+<ion-card>
+  <ion-card-content>
+<p><b>Announcements</b></p>
+<p>Join us this weekend for a new message series on love</p>
+  </ion-card-content>
+</ion-card>
